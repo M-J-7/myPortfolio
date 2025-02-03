@@ -5,6 +5,8 @@ import About from './components/About.jsx'
 import Technologies from './components/Technologies.jsx'
 import Experience from './components/Experience.jsx'
 import Footer from './components/Footer.jsx'
+import Certificate from './components/certificate.jsx'
+
 const App = () => {
   return (
     <>
@@ -21,6 +23,7 @@ const App = () => {
         <About />
         <Technologies />
         <Experience />
+        <Certificate/>
         <Footer />
         </div>
       

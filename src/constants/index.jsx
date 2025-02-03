@@ -39,6 +39,32 @@ export const EXPERIENCES = [
 ];
 
 
+export const CERTIFICATE = [
+  {
+    // year: "Aug 2023 - Nov 2023",
+    title: "Software Engineering Job Simulation",
+    company: "Quantium",
+    description: `Gained hands-on experience in setting up a local development environment, data processing, and building interactive web applications using Dash and Python. Developed skills in optimizing application layout, enhancing user experience, and implementing testing strategies. Additionally, explored automation techniques for test suites to improve application reliability and efficiency.`,
+    technologies: ["Python", "Plotly", "HTML", "Pandas", "CSS"],
+  },
+  {
+    // year: "Aug 2023 - Nov 2023",
+    title: "Introduction to Cloud Job Simulation",
+    company: "Datacom",
+    description: `Completed hands-on tasks in cloud application registration and automation using GitHub Actions. Gained practical experience in setting up cloud-based applications, managing deployments, and creating CI/CD workflows to streamline development and deployment processes.`,
+    technologies: ["CI/CD", "GitHub", "GIT"],
+  },
+  {
+    // year: "Aug 2023 - Nov 2023",
+    title: "Prompt Engineering Certification",
+    company: "Simplilearn | Skillup",
+    description: `Gained foundational knowledge in prompt engineering, including designing effective prompts for AI models to improve response accuracy and relevance. Learned best practices for structuring prompts, optimizing interactions, and leveraging AI for various applications.`,
+    technologies: ["Prompts", "Tokens", "ChatGPT"],
+  },
+  
+
+];
+
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
