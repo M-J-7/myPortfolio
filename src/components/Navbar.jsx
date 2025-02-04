@@ -19,7 +19,7 @@ const Navbar = () => {
           className="flex items-center text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
         >
           <a
-            href="https://drive.google.com/file/d/1R01TzYXJarh2Hx5HFuitMda1au2IFcDz/view?usp=sharing" // Replace with your link
+            href="https://drive.google.com/file/d/1SVBA9iM1LrEDmA5PWn5ZtJryDHDjDeo-/view?usp=sharing" // Replace with your link
             target="_blank" // Optional: Open in a new tab
             rel="noopener noreferrer" // For security
             className="flex items-center"
