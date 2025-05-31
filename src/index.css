@@ -1,31 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@300;400;500;600;700&display=swap');
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Responsive padding */
 .px-8 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .px-8 {
     padding-left: 6rem;
     padding-right: 6rem;
   }
+}
+
 .tracking-tighter {
-    letter-spacing: -0.01em;
+  letter-spacing: -0.01em;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .tracking-tighter {
     font-size: 1.1rem;
   }
-  
-.hero-pic{
-    box-shadow: 0 0 15px 15px #020617;
 }
+
+.hero-pic {
+  box-shadow: 0 0 15px 15px #020617;
+}
+
+@media (max-width: 768px) {
+  .hero-pic {
+    box-shadow: 0 0 8px 8px #020617;
+  }
+}
+
 .bg-neutral-800 {
   --tw-bg-opacity: 1;
   background-color: transparent;
-  border: transparent ;
+  border: transparent;
 }
+
 .bg-neutral-700 {
   --tw-bg-opacity: 1;
   background-color: transparent;
 }
+
 /* .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -33,9 +56,22 @@
   margin-right: 1rem;
 } */
 .max-w-xl {
-  max-width: 34rem;
+  max-width: 100%;
   padding-top: 1rem;
 }
-.object-contain{
-  max-width: 130%;
+
+@media (min-width: 768px) {
+  .max-w-xl {
+    max-width: 34rem;
+  }
+}
+
+.object-contain {
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .object-contain {
+    max-width: 130%;
+  }
 }
