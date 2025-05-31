@@ -21,7 +21,7 @@ const Navbar = () => {
             className="flex items-center text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
           >
             <a
-              href="https://drive.google.com/file/d/1SVBA9iM1LrEDmA5PWn5ZtJryDHDjDeo-/view?usp=sharing"
+              href="https://drive.google.com/file/d/1-cR8FWnk0H7ZNBGsS015VAF2CbipBgP1/view"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center"
