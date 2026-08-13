@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#08090A"/>
+  <text x="32" y="45"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="38"
+        fill="#F4F1EA"
+        text-anchor="middle">M<tspan fill="#C7F94E" font-style="italic">j</tspan></text>
+</svg>
